@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <legend>Personal Details</legend>
+    <br>
+    <label for="Salutation">Salutation:</label>
+        <select id="Salutation">
+        <option id="Salutation" value="">--None--</option>
+        <option id="Salutation" value="Mr">Mr.</option>
+        <option id="Salutation" value="Mrs">Mrs.</option>
+        </select>
+    <br>
+    <br>
+    <labal for="first name">First name:</labal>
+    <input minlength="2" maxlength="10" type="text" id="first name" required>
+    <br>
+    <br>
+    <labal for="last name">Last name:</labal>
+    <input minlength="2" maxlength="10" type="text" id="last name" required>
+    <br>
+    <br>
+    <label for="gender">Gender:</label>
+        
+    <input type="radio" name="gender" id="maler" value="male">
+    <label for="male">Male</label>
+    
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <br>
+    <br>
+    <label for="dob">DOB:</label>
+    <input type="datetime-local" name="dob" id="dob">
+    <br>
+    <br>
+    <label for="address">Address</label>
+    <br>
+    <textarea name="address" id="address" cols="50" rows="7"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="submit">
+</body>
+</html>
